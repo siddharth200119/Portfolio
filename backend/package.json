@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "\"Backend for portfolio\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siddharth200119/Portfolio.git"
+  },
+  "author": "Siddharth Ramnani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/siddharth200119/Portfolio/issues"
+  },
+  "homepage": "https://github.com/siddharth200119/Portfolio#readme"
+}
