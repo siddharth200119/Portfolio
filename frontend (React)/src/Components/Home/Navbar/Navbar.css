@@ -1,0 +1,50 @@
+#navbar{
+    display: flex;
+    flex-direction: row;
+    height: 10%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar p{
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+.expand-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    min-width: 60px;
+    height: 15px;
+    cursor: pointer;
+}
+
+.expand-btn div{
+    background-color: black;
+    min-width: 15px;
+    max-height: 15px;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+
+.expand-btn div.one{
+    border-radius: 0;
+    width: 20px;
+    height: 2px;
+    transform: translate(-3px, 3px) rotate(-35deg);
+}
+
+.expand-btn div.two{
+    border-radius: 0;
+    width: 20px;
+    height: 2px;
+    transform: translate(-23px, 14px) rotate(35deg);
+}
+
+.expand-btn div.three{
+    border-radius: 0;
+    min-width: 40px;
+    height: 2px;
+    transform: translate(-40px, 9px);
+}

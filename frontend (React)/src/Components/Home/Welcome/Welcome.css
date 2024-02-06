@@ -1,0 +1,47 @@
+#welcome{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.background{
+    background-color: #E9EAEC;
+    min-height: 60%;
+    min-width: 100%;
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.background-div{
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.background-div p{
+    margin: 0;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+}
+
+.background-div div{
+    min-width: 120px;
+    min-height: 120px;
+    border-top: solid 2px;
+    border-right: solid 2px
+}
+
+#welcome img{
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto;
+    height: 110%;
+    position: absolute;
+    top: -10%;
+}
