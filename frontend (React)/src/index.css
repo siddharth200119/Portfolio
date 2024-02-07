@@ -1,4 +1,11 @@
+:root{
+  --text-primary: "#0A0F13";
+  --text-secondary: "#262C2A";
+  --background-primary: "#E9EAEC";
+}
+
 body {
   margin: 0;
   padding: 0 2.5%;
+  scroll-behavior: smooth;
 }

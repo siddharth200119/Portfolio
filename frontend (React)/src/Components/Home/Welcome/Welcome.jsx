@@ -15,6 +15,7 @@ function Welcome(){
                 </div>
             </div>
             <img src="intro.png"></img>
+            <h1 className="title-text">SOFTWARE DEVELOPER</h1>
         </div>
     )
 }
