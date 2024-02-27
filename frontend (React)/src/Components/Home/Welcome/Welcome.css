@@ -6,7 +6,7 @@
 }
 
 .background{
-    background-color: var(--background-primary);
+    background-color: #262C2A;
     min-height: 60%;
     min-width: 100%;
     align-self: center;
@@ -29,29 +29,58 @@
     font-weight:600;
     writing-mode: vertical-rl;
     text-orientation: upright;
+    color: #E9EAEC;
 }
 
 .background-div div{
     min-width: 120px;
     min-height: 120px;
-    border-top: solid 2px;
-    border-right: solid 2px
+    border-top: 2px solid #E9EAEC;
+    border-right: 2px solid #E9EAEC;
 }
 
-#welcome img{
-    left: 0; 
-    right: 0; 
-    margin-left: auto; 
-    margin-right: auto;
+#welcome .intro{
     height: 110%;
     position: absolute;
+    background-position: center;
+    background-color: #E9EAEC;
+    -webkit-text-stroke: 3px #E9EAEC;
+    display: flex;
     top: -10%;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    background-image: url("/public/intro.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-size: 8vw;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-family: 'Protest Guerrilla', sans-serif;
+    font-weight: 200;
+    margin: 0;
 }
 
-.title-text{
-    z-index: 2;
-    font-size: 7vw;
-    font-family: sans-serif;
-    font-weight: 200;
-    color: var(--text-primary);
+#welcome .intro-div{
+    min-height: 110%;
+    position: absolute;
+    background-position: center;
+    top: -10%;
+    width: 100%;
+    background-image: url("/public/intro.png");
+    background-repeat: no-repeat;
+    background-size: contain;
 }
+
+@media only screen and (max-width: 500px) {
+    #welcome .intro{
+        height: 30%;
+        top: 10%;
+        font-weight: 100;
+        -webkit-text-stroke: 1px #E9EAEC;
+    }
+    #welcome .intro-div{
+        min-height: 40%;
+        top: 10%;
+    }
+  }

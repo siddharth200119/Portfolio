@@ -2,13 +2,16 @@
     display: flex;
     flex-direction: row;
     height: 10%;
+    max-width: 100%;
     justify-content: space-between;
     align-items: center;
 }
 
 #navbar p{
     font-family: sans-serif;
-    font-weight: 400;
+    font-weight: 600;
+    color: #E9EAEC;
+    font-size: 1.3rem;
 }
 
 .expand-btn{
@@ -21,7 +24,7 @@
 }
 
 .expand-btn div{
-    background-color: #0A0F13;
+    background-color: #E9EAEC;
     min-width: 12px;
     max-height: 12px;
     border-radius: 10px;
@@ -31,14 +34,14 @@
 .expand-btn div.one{
     border-radius: 0;
     width: 20px;
-    height: 2px;
+    height: 3px;
     transform: translate(17px, 0px) rotate(-35deg);
 }
 
 .expand-btn div.two{
     border-radius: 0;
     width: 20px;
-    height: 2px;
+    height: 3px;
     transform: translate(-3px, 11px) rotate(35deg);
 }
 
@@ -51,16 +54,35 @@
 
 .NavbarItem a{
     text-decoration: none;
-    color: var(--text-primary);
-    margin: 0 0.4rem;
+    color: #E9EAEC;
+    padding: 0 0.4rem;
     font-family: sans-serif;
     font-size: 1.2rem;
+    font-weight: 600;
     transition: all 0.3s ease;
     display: inline-block;
 }
 
+.NavbarItem .underline{
+    width: 0;
+    height: 2px;
+    border-radius: 1px;
+    background-color: #E9EAEC;
+    transition: all 0.3s ease;
+    background-image: url("/public/masks/mask.png");
+    background-size:cover;
+}
+
 .NavbarItem a:hover{
-    transform: scale(1.1)
+    transform: scale(1.1);
+    background-image: url("/public/masks/mask.png");
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size:contain;
+}
+
+.NavbarItem a:hover + .underline{
+    width: 100%;
 }
 
 .NavbarItems{
@@ -72,7 +94,7 @@
 }
 
 .show{
-    width: 27rem;
+    width: 29rem;
 }
 
 .nav{

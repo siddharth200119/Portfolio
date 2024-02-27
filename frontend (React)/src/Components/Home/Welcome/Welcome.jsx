@@ -14,8 +14,8 @@ function Welcome(){
                     <p>武士</p>
                 </div>
             </div>
-            <img src="intro.png"></img>
-            <h1 className="title-text">SOFTWARE DEVELOPER</h1>
+            <div className="intro-div"></div>
+            <h1 className="intro">SOFTWARE DEVELOPER</h1>
         </div>
     )
 }

@@ -2,10 +2,12 @@
   --text-primary: "#0A0F13";
   --text-secondary: "#262C2A";
   --background-primary: "#E9EAEC";
+  --background-secondary: "#888B8B";
 }
 
 body {
   margin: 0;
   padding: 0 2.5%;
   scroll-behavior: smooth;
+  background-color: #0A0F13;
 }

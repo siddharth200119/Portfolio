@@ -1,0 +1,54 @@
+#about{
+    margin: 6rem 0;
+    display: flex;
+    flex-direction: row;
+}
+
+#about .about-me{
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+}
+
+.title{
+    display: block;
+    font-family: 'Archivo Black', sans-serif;
+    margin: 0;
+}
+
+.title h3{
+    font-size: 2rem;
+    margin: 0;
+    color: #888B8B;
+    display: block;
+}
+
+.title p{
+    font-size: 4rem;
+    margin: 0;
+    color: #E9EAEC;
+    display: inline;
+}
+
+.title .name{
+    font-family: 'Protest Guerrilla', sans-serif;
+    letter-spacing: 6px;
+    background-image: url("/public/masks/mask-white.png");
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#about .text{
+    color: #888B8B;
+    width: 85%;
+    text-align: justify;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.3rem;
+}
+
+
+#about .skills{
+    min-width: 50%;
+}
