@@ -3,14 +3,8 @@ import "./About.css";
 import {motion} from "framer-motion"
 
 function About(){
-    
     return(
         <div id="about" className="section">
-            {/* <motion.div initial={{ opacity: 0, x: -100 }} whileInView={{ opacity: 1, x: 0 }} transition={{duration: 1, delay: 0.25}}>
-            <div className="title">
-                <h1>About</h1>
-            </div>
-            </motion.div> */}
             <div className="about-me">
                 <motion.div className="title" initial={{ opacity: 0, x: -100 }} whileInView={{ opacity: 1, x: 0 }} transition={{duration: 1, delay: 0.25}}>
                     <h3>HELLO!</h3>
@@ -29,6 +23,9 @@ function About(){
             </div>
             <div className="skills">
                 <h1>skills</h1>
+                <div>
+                    <img src="/skills/python.png" height="50px"/>
+                </div>
             </div>
         </div>
     )

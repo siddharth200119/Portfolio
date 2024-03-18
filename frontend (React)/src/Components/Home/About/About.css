@@ -7,7 +7,8 @@
 #about .about-me{
     display: flex;
     flex-direction: column;
-    max-width: 50%;
+    max-width: 60%;
+    min-width: 60%;
 }
 
 .title{
@@ -24,7 +25,7 @@
 }
 
 .title p{
-    font-size: 4rem;
+    font-size: 3.7rem;
     margin: 0;
     color: #E9EAEC;
     display: inline;
@@ -50,5 +51,5 @@
 
 
 #about .skills{
-    min-width: 50%;
+    min-width: 40%;
 }
